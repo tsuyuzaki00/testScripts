@@ -1,8 +1,8 @@
 ''' LibraryReload '''
 #from MayaLibrary import setCurves as ml; reload(ml);
 ''' Run '''
-#from scriptsInTools.singleRun import skinPaintValue as ps
-from scriptsInTools.Maya.Manager import selectBind as ps
+#from scriptsInTools.Maya.Execute import geoRenameSkc as ps
+from scriptsInTools.Maya.Manager import selectTransferSkinWeight as ps
 reload(ps); ps.main()
 
 #import pymel.core as pm
