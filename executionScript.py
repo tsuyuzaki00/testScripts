@@ -1,7 +1,7 @@
 ''' LibraryReload '''
-#from MayaLibrary import setCurves as ml; reload(ml);
+#from mgear_guide._tools.UI import mgearDictUI as UI; reload(UI);
 ''' Run '''
-#from scriptsInTools.Maya.Execute import geoRenameSkc as ps
+#from mgear_guide._tools.Maya.Execute import firstChangeOnly as ps
 from scriptsInTools.Maya.Manager import selectTransferSkinWeight as ps
 reload(ps); ps.main()
 
