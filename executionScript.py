@@ -1,8 +1,8 @@
 ''' LibraryReload '''
-#from mgear_guide._tools.UI import mgearDictUI as UI; reload(UI);
+#from mgear_guide._tools.UI import mgearVisExportUI as UI; reload(UI);
 ''' Run '''
-from mgear_guide._tools.Maya.Execute import mgearExportCurves as ps
-#from scriptsInTools.Maya.Manager import selectTransferSkinWeight as ps
+#from mgear_guide._tools.Maya.Execute import mgearExportCurves as ps
+from scriptsInTools.Maya.Execute import multiCopySkinWeight as ps
 reload(ps); ps.main()
 
 #import pymel.core as pm
